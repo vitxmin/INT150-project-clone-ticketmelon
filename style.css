@@ -46,6 +46,13 @@
     top: 2px;
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    opacity: 50%;
+}
+
 /* ======= HEADER ======= */
 .hero {
     background-color: rgb(190, 225, 255);
@@ -409,6 +416,9 @@
 
     .nav-links {
         display: none;
+    }
+    .hamburger {
+        display: flex;
     }
 
     .hero {
