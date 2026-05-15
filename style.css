@@ -562,19 +562,21 @@ body {
         flex-direction: row;
         align-items: stretch;
         flex-shrink: 0;
+        border-radius: 10px;
+        overflow: hidden; /* สำคัญ */
     }
 
     .card-img {
         width: 100px;
         aspect-ratio: unset; 
         flex-shrink: 0;
-        border-radius: 10px 0 0 10px;
     }
 
     .card-img img {
         width: 100px;
         height: 100%;
-        border-radius: 10px 0 0 10px;
+        object-fit: cover;
+        display: block;
     }
 
     .card-info {
