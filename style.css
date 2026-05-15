@@ -540,8 +540,15 @@ body {
         display: none;
     }
 
-    .rec-events-section .event-grid{
-        grid-template-columns: repeat(5, 1fr);
+    .scroll-wrapper {
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .rec-events-section .event-grid {
+        display: flex;
+        gap: 16px;
+        width: max-content;
         padding: 5px;
     }
 
@@ -554,6 +561,7 @@ body {
         display: flex;
         flex-direction: row;
         align-items: stretch;
+        flex-shrink: 0;
     }
 
     .card-img {
