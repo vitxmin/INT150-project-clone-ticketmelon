@@ -619,7 +619,7 @@ body {
         justify-content: center;
     }
 
-    /* Footer เปลี่ยนเป็น 1 คอลัมน์ในมือถือ */
+    /* Footer เปลี่ยนเป็น 1 คอลัมน์ */
     .footer-top {
         grid-template-columns: 1fr;
     }
