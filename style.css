@@ -171,7 +171,7 @@ body {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     overflow: hidden;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .event-card {
